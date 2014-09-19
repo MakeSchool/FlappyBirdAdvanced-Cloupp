@@ -33,7 +33,7 @@
     
     // add your custom instance variables here!
     //---------------------------------------------------------
-    float timeSinceObstacle;
+
     //---------------------------------------------------------
 }
 
@@ -269,8 +269,8 @@
         {
             // add your additional touchBegan code here!
             //---------------------------------------------------------
-            float impulse = 200 - 2 * character.physicsBody.velocity.y;
-            [character.physicsBody applyImpulse:ccp(0, impulse)];
+
+            
             //---------------------------------------------------------
         }
         @catch (NSException *exception) {
@@ -331,31 +331,11 @@
         {
             character.physicsBody.velocity = ccp(character.physicsBody.velocity.x, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
             
-            // add your extra update method code here!
+            // add your additional update method code here!
             //---------------------------------------------------------
-            timeSinceObstacle += delta;
+
             
-            if (timeSinceObstacle > 2)
-            {
-                // Add a new obstacle
-                [self addObstacle];
-                [self addPowerup];
-                // Then reset the timer.
-                timeSinceObstacle = 0;
-            }
             
-            if (character.physicsBody.velocity.y < -800)
-            {
-                character.physicsBody.velocity = ccp(80, -800);
-            }
-            else if (character.physicsBody.velocity.y > 200)
-            {
-                character.physicsBody.velocity = ccp(80, 200);
-            }
-            else
-            {
-                character.physicsBody.velocity = ccp(80, character.physicsBody.velocity.y);
-            }
             //---------------------------------------------------------
         }
         @catch(NSException* ex)
@@ -370,36 +350,11 @@
 //---------------------------------------------------------
 - (void)initialize
 {
-    character = [Character createFlappy];
-    [physicsNode addChild:character];
-    
-    [self addObstacle];
-    
-    timeSinceObstacle = 0;
-    
-   [self showScore];
+
 }
 
 
-- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair character:(CCNode *)character level:(CCNode *)level
-{
-    [self gameOver];
-    return YES;
-}
 
-- (BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair character:(CCNode *)character goal:(CCNode *)goal
-{
-    [goal removeFromParent];
-    points++;
-    [self updateScore];
-    return YES;
-}
-
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair character:(CCSprite *)character powerup:(CCSprite *)powerup
-{
-    trail.visible = TRUE;
-    return TRUE;
-}
 //---------------------------------------------------------
 
 @end
