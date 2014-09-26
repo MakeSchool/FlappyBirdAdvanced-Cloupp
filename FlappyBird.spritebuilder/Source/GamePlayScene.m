@@ -2,7 +2,8 @@
 #import "Character.h"
 #import "Obstacle.h"
 
-@implementation GamePlayScene {
+@implementation GamePlayScene
+{
     // put variables below this line
     
     
