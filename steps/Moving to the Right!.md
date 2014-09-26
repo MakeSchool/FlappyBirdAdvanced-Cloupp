@@ -13,7 +13,7 @@ In order to create an update loop, you need to add a new method. Below the
 closing bracket of your ```touchBegan``` method, but before the ```@end```,
 add the following:
 
-	- (void)update:(CCTime)delta
+	- (void)update:(float)delta
 	{
 		// this will be run every frame.
 		// delta is the time that has elapsed since the last time it was run.
