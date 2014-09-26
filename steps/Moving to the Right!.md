@@ -1,38 +1,30 @@
-Making the Character Move
+Creating an Update Loop
 =============
 
 So far we have only made the character move vertically. Now we want to make him
-move to the right, so he can progress through the level. You may have already realized
-how to do that: we just need to add velocity!
+move to the right, so he can progress through the level. Unlike jumping, we want the
+character to be constantly moving on the X axis.
 
-To do that, change the lines
+For this sort of logic, games typically use an "update loop." What happens is that some
+code is run really fast - up to 60 times per second! That code usually checks things like
+player health, whether enemies have died, or whether something should move!
 
-	if (character.physicsBody.velocity.y < -800)
-	{
-		character.physicsBody.velocity = ccp(0, -800);
-	}
-	else if (character.physicsBody.velocity.y > 200)
-	{
-		character.physicsBody.velocity = ccp(0, 200);
-	}
-	else
-	{
-		character.physicsBody.velocity = ccp(0, character.physicsBody.velocity.y);
-	}
+In order to create an update loop, you need to add a new method. Below the
+closing bracket of your ```touchBegan``` method, but before the ```@end```,
+add the following:
 
-to
-
-	if (character.physicsBody.velocity.y < -800)
+	- (void)update:(CCTime)delta
 	{
-		character.physicsBody.velocity = ccp(80, -800);
-	}
-	else if (character.physicsBody.velocity.y > 200)
-	{
-		character.physicsBody.velocity = ccp(80, 200);
-	}
-	else
-	{
-		character.physicsBody.velocity = ccp(80, character.physicsBody.velocity.y);
+		// this will be run every frame.
+		// delta is the time that has elapsed since the last time it was run.
 	}
 
-Now run the game again. You should see the character moving now!
+Making the Character Move
+=============
+
+Now that we have an update loop, making the character move is easy. We just need to
+set the horizontal velocity to 80 and not change the vertical velocity.
+
+To do that, in your new ```update``` method, add:
+
+	character.physicsBody.velocity = ccp(80, character.physicsBody.velocity.y);
