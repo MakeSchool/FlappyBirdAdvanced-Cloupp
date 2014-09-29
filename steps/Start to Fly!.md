@@ -42,7 +42,7 @@ For your game to respond to input, we have to write a new method to be run whene
 the player touches the screen. Add the following after the closing bracket of the init method
 but before the ```@end```:
 
-	- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+	- (void)touchBegan
 	{
 		// this will get called every time the player
 		// touches the screen.

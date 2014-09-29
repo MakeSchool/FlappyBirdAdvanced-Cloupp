@@ -40,6 +40,26 @@
 		BCF66F7E19563563004691FD /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7719563563004691FD /* Goal.m */; };
 		BCF66F7F19563563004691FD /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
 		BCF66F8019563563004691FD /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7B19563563004691FD /* Obstacle.m */; };
+		BEC40D2519D9EBDC00ACDA8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D2419D9EBDC00ACDA8F /* AppDelegate.m */; };
+		BEC40D2719D9EBDC00ACDA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D2619D9EBDC00ACDA8F /* main.m */; };
+		BEC40D2919D9EBDC00ACDA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC40D2819D9EBDC00ACDA8F /* Images.xcassets */; };
+		BEC40D2C19D9EBDC00ACDA8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC40D2A19D9EBDC00ACDA8F /* MainMenu.xib */; };
+		BEC40D3819D9EBDC00ACDA8F /* FlappyBirdOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D3719D9EBDC00ACDA8F /* FlappyBirdOSXTests.m */; };
+		BEC40D4919D9EBFD00ACDA8F /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D4619D9EBEE00ACDA8F /* libcocos2d.a */; };
+		BEC40D4B19D9EC0200ACDA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D4A19D9EC0200ACDA8F /* Foundation.framework */; };
+		BEC40D4D19D9EC3400ACDA8F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D4C19D9EC3400ACDA8F /* AudioToolbox.framework */; };
+		BEC40D4F19D9EC3B00ACDA8F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D4E19D9EC3B00ACDA8F /* OpenAL.framework */; };
+		BEC40D5119D9EC4300ACDA8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5019D9EC4300ACDA8F /* AVFoundation.framework */; };
+		BEC40D5319D9EC4D00ACDA8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5219D9EC4D00ACDA8F /* QuartzCore.framework */; };
+		BEC40D5519D9EC5300ACDA8F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5419D9EC5300ACDA8F /* AppKit.framework */; };
+		BEC40D5719D9EC5B00ACDA8F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5619D9EC5B00ACDA8F /* OpenGL.framework */; };
+		BEC40D5919D9EC6000ACDA8F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5819D9EC6000ACDA8F /* GameKit.framework */; };
+		BEC40D5B19D9EC6400ACDA8F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC40D5A19D9EC6400ACDA8F /* libz.dylib */; };
+		BEC40D5C19D9ECD900ACDA8F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7319563563004691FD /* Character.m */; };
+		BEC40D5D19D9ECD900ACDA8F /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7519563563004691FD /* GamePlayScene.m */; };
+		BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
+		BEC40D6019D9ECDE00ACDA8F /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
+		BEC40D6619DA104900ACDA8F /* MSCaptureGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +75,34 @@
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
+			remoteInfo = cocos2d;
+		};
+		BEC40D3219D9EBDC00ACDA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B77F1B2617B978D7009739AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC40D1E19D9EBDB00ACDA8F;
+			remoteInfo = FlappyBirdOSX;
+		};
+		BEC40D4519D9EBEE00ACDA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E01E663D121CA00A001A484F;
+			remoteInfo = cocos2d;
+		};
+		BEC40D4719D9EBEE00ACDA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D37EE9FC187D4E7700CB5EF2;
+			remoteInfo = ObjectiveChipmunk;
+		};
+		BEC40D7619DA189700ACDA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E01E663C121CA00A001A484F;
 			remoteInfo = cocos2d;
 		};
 /* End PBXContainerItemProxy section */
@@ -102,6 +150,28 @@
 		BCF66F7919563563004691FD /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
 		BCF66F7A19563563004691FD /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Obstacle.h; path = Source/Obstacle.h; sourceTree = "<group>"; };
 		BCF66F7B19563563004691FD /* Obstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Obstacle.m; path = Source/Obstacle.m; sourceTree = "<group>"; };
+		BEC40D1F19D9EBDB00ACDA8F /* FlappyBirdOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBirdOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC40D2219D9EBDC00ACDA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC40D2319D9EBDC00ACDA8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEC40D2419D9EBDC00ACDA8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEC40D2619D9EBDC00ACDA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEC40D2819D9EBDC00ACDA8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEC40D2B19D9EBDC00ACDA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BEC40D3119D9EBDC00ACDA8F /* FlappyBirdOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC40D3619D9EBDC00ACDA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC40D3719D9EBDC00ACDA8F /* FlappyBirdOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBirdOSXTests.m; sourceTree = "<group>"; };
+		BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-osx.xcodeproj"; path = "Source/libs/cocos2d-iphone/cocos2d-osx.xcodeproj"; sourceTree = "<group>"; };
+		BEC40D4A19D9EC0200ACDA8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D4C19D9EC3400ACDA8F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D4E19D9EC3B00ACDA8F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5019D9EC4300ACDA8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5219D9EC4D00ACDA8F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5419D9EC5300ACDA8F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5619D9EC5B00ACDA8F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5819D9EC6000ACDA8F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEC40D5A19D9EC6400ACDA8F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		BEC40D6419DA104900ACDA8F /* MSCaptureGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCaptureGLView.h; sourceTree = "<group>"; };
+		BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCaptureGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +193,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEC40D1C19D9EBDB00ACDA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC40D5B19D9EC6400ACDA8F /* libz.dylib in Frameworks */,
+				BEC40D5919D9EC6000ACDA8F /* GameKit.framework in Frameworks */,
+				BEC40D5719D9EC5B00ACDA8F /* OpenGL.framework in Frameworks */,
+				BEC40D5519D9EC5300ACDA8F /* AppKit.framework in Frameworks */,
+				BEC40D5319D9EC4D00ACDA8F /* QuartzCore.framework in Frameworks */,
+				BEC40D5119D9EC4300ACDA8F /* AVFoundation.framework in Frameworks */,
+				BEC40D4F19D9EC3B00ACDA8F /* OpenAL.framework in Frameworks */,
+				BEC40D4D19D9EC3400ACDA8F /* AudioToolbox.framework in Frameworks */,
+				BEC40D4B19D9EC0200ACDA8F /* Foundation.framework in Frameworks */,
+				BEC40D4919D9EBFD00ACDA8F /* libcocos2d.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC40D2E19D9EBDC00ACDA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9222E2B918734FF800A246C7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */,
 				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
 			);
 			name = libs;
@@ -189,6 +284,8 @@
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
+				BEC40D2019D9EBDC00ACDA8F /* FlappyBirdOSX */,
+				BEC40D3419D9EBDC00ACDA8F /* FlappyBirdOSXTests */,
 				B77F1B3017B978D7009739AE /* Frameworks */,
 				B77F1B2F17B978D7009739AE /* Products */,
 			);
@@ -198,6 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				B77F1B2E17B978D7009739AE /* FlappyBird.app */,
+				BEC40D1F19D9EBDB00ACDA8F /* FlappyBirdOSX.app */,
+				BEC40D3119D9EBDC00ACDA8F /* FlappyBirdOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +304,15 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEC40D5A19D9EC6400ACDA8F /* libz.dylib */,
+				BEC40D5819D9EC6000ACDA8F /* GameKit.framework */,
+				BEC40D5619D9EC5B00ACDA8F /* OpenGL.framework */,
+				BEC40D5419D9EC5300ACDA8F /* AppKit.framework */,
+				BEC40D5219D9EC4D00ACDA8F /* QuartzCore.framework */,
+				BEC40D5019D9EC4300ACDA8F /* AVFoundation.framework */,
+				BEC40D4E19D9EC3B00ACDA8F /* OpenAL.framework */,
+				BEC40D4C19D9EC3400ACDA8F /* AudioToolbox.framework */,
+				BEC40D4A19D9EC0200ACDA8F /* Foundation.framework */,
 				8392007918EE8E3300B6C429 /* GLKit.framework */,
 				B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */,
 				B77F1B3117B978D7009739AE /* QuartzCore.framework */,
@@ -239,6 +347,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BEC40D2019D9EBDC00ACDA8F /* FlappyBirdOSX */ = {
+			isa = PBXGroup;
+			children = (
+				BEC40D2319D9EBDC00ACDA8F /* AppDelegate.h */,
+				BEC40D2419D9EBDC00ACDA8F /* AppDelegate.m */,
+				BEC40D2819D9EBDC00ACDA8F /* Images.xcassets */,
+				BEC40D2A19D9EBDC00ACDA8F /* MainMenu.xib */,
+				BEC40D2119D9EBDC00ACDA8F /* Supporting Files */,
+				BEC40D6419DA104900ACDA8F /* MSCaptureGLView.h */,
+				BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */,
+			);
+			path = FlappyBirdOSX;
+			sourceTree = "<group>";
+		};
+		BEC40D2119D9EBDC00ACDA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC40D2219D9EBDC00ACDA8F /* Info.plist */,
+				BEC40D2619D9EBDC00ACDA8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC40D3419D9EBDC00ACDA8F /* FlappyBirdOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC40D3719D9EBDC00ACDA8F /* FlappyBirdOSXTests.m */,
+				BEC40D3519D9EBDC00ACDA8F /* Supporting Files */,
+			);
+			path = FlappyBirdOSXTests;
+			sourceTree = "<group>";
+		};
+		BEC40D3519D9EBDC00ACDA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC40D3619D9EBDC00ACDA8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC40D4119D9EBED00ACDA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC40D4619D9EBEE00ACDA8F /* libcocos2d.a */,
+				BEC40D4819D9EBEE00ACDA8F /* libObjectiveChipmunk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,6 +417,42 @@
 			productReference = B77F1B2E17B978D7009739AE /* FlappyBird.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BEC40D1E19D9EBDB00ACDA8F /* FlappyBirdOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC40D3E19D9EBDC00ACDA8F /* Build configuration list for PBXNativeTarget "FlappyBirdOSX" */;
+			buildPhases = (
+				BEC40D1B19D9EBDB00ACDA8F /* Sources */,
+				BEC40D1C19D9EBDB00ACDA8F /* Frameworks */,
+				BEC40D1D19D9EBDB00ACDA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC40D7719DA189700ACDA8F /* PBXTargetDependency */,
+			);
+			name = FlappyBirdOSX;
+			productName = FlappyBirdOSX;
+			productReference = BEC40D1F19D9EBDB00ACDA8F /* FlappyBirdOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC40D3019D9EBDC00ACDA8F /* FlappyBirdOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC40D3F19D9EBDC00ACDA8F /* Build configuration list for PBXNativeTarget "FlappyBirdOSXTests" */;
+			buildPhases = (
+				BEC40D2D19D9EBDC00ACDA8F /* Sources */,
+				BEC40D2E19D9EBDC00ACDA8F /* Frameworks */,
+				BEC40D2F19D9EBDC00ACDA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC40D3319D9EBDC00ACDA8F /* PBXTargetDependency */,
+			);
+			name = FlappyBirdOSXTests;
+			productName = FlappyBirdOSXTests;
+			productReference = BEC40D3119D9EBDC00ACDA8F /* FlappyBirdOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -277,6 +470,13 @@
 							};
 						};
 					};
+					BEC40D1E19D9EBDB00ACDA8F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BEC40D3019D9EBDC00ACDA8F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BEC40D1E19D9EBDB00ACDA8F;
+					};
 				};
 			};
 			buildConfigurationList = B77F1B2917B978D7009739AF /* Build configuration list for PBXProject "FlappyBird" */;
@@ -285,6 +485,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B77F1B2517B978D7009739AE;
 			productRefGroup = B77F1B2F17B978D7009739AE /* Products */;
@@ -294,10 +495,16 @@
 					ProductGroup = B7378941180761A80076A88C /* Products */;
 					ProjectRef = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
 				},
+				{
+					ProductGroup = BEC40D4119D9EBED00ACDA8F /* Products */;
+					ProjectRef = BEC40D4019D9EBED00ACDA8F /* cocos2d-osx.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
+				BEC40D1E19D9EBDB00ACDA8F /* FlappyBirdOSX */,
 				B77F1B2D17B978D7009739AE /* FlappyBird */,
+				BEC40D3019D9EBDC00ACDA8F /* FlappyBirdOSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +515,20 @@
 			fileType = archive.ar;
 			path = libcocos2d.a;
 			remoteRef = B737894A180761A90076A88C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEC40D4619D9EBEE00ACDA8F /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = BEC40D4519D9EBEE00ACDA8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEC40D4819D9EBEE00ACDA8F /* libObjectiveChipmunk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjectiveChipmunk.a;
+			remoteRef = BEC40D4719D9EBEE00ACDA8F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -335,6 +556,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEC40D1D19D9EBDB00ACDA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC40D6019D9ECDE00ACDA8F /* Published-iOS in Resources */,
+				BEC40D2919D9EBDC00ACDA8F /* Images.xcassets in Resources */,
+				BEC40D2C19D9EBDC00ACDA8F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC40D2F19D9EBDC00ACDA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,6 +590,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEC40D1B19D9EBDB00ACDA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC40D5D19D9ECD900ACDA8F /* GamePlayScene.m in Sources */,
+				BEC40D2719D9EBDC00ACDA8F /* main.m in Sources */,
+				BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */,
+				BEC40D2519D9EBDC00ACDA8F /* AppDelegate.m in Sources */,
+				BEC40D6619DA104900ACDA8F /* MSCaptureGLView.m in Sources */,
+				BEC40D5C19D9ECD900ACDA8F /* Character.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC40D2D19D9EBDC00ACDA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC40D3819D9EBDC00ACDA8F /* FlappyBirdOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -360,7 +619,28 @@
 			name = cocos2d;
 			targetProxy = B7378988180764180076A88C /* PBXContainerItemProxy */;
 		};
+		BEC40D3319D9EBDC00ACDA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC40D1E19D9EBDB00ACDA8F /* FlappyBirdOSX */;
+			targetProxy = BEC40D3219D9EBDC00ACDA8F /* PBXContainerItemProxy */;
+		};
+		BEC40D7719DA189700ACDA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2d;
+			targetProxy = BEC40D7619DA189700ACDA8F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC40D2A19D9EBDC00ACDA8F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC40D2B19D9EBDC00ACDA8F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B77F1CDC17B978D8009739AE /* Debug */ = {
@@ -489,6 +769,162 @@
 			};
 			name = Release;
 		};
+		BEC40D3919D9EBDC00ACDA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"\"Source/libs/cocos2d-iphone/cocos2d\"/**",
+					"\"Source/libs/cocos2d-iphone/external/kazmath/include\"/**",
+					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
+					"\"Source/libs/cocos2d-iphone/cocos2d-ui\"/**",
+				);
+				INFOPLIST_FILE = FlappyBirdOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEC40D3A19D9EBDC00ACDA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"\"Source/libs/cocos2d-iphone/cocos2d\"/**",
+					"\"Source/libs/cocos2d-iphone/external/kazmath/include\"/**",
+					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
+					"\"Source/libs/cocos2d-iphone/cocos2d-ui\"/**",
+				);
+				INFOPLIST_FILE = FlappyBirdOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEC40D3B19D9EBDC00ACDA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FlappyBirdOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyBirdOSX.app/Contents/MacOS/FlappyBirdOSX";
+			};
+			name = Debug;
+		};
+		BEC40D3C19D9EBDC00ACDA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FlappyBirdOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyBirdOSX.app/Contents/MacOS/FlappyBirdOSX";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,6 +942,24 @@
 			buildConfigurations = (
 				B77F1CDF17B978D8009739AE /* Debug */,
 				B77F1CE017B978D8009739AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC40D3E19D9EBDC00ACDA8F /* Build configuration list for PBXNativeTarget "FlappyBirdOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC40D3919D9EBDC00ACDA8F /* Debug */,
+				BEC40D3A19D9EBDC00ACDA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC40D3F19D9EBDC00ACDA8F /* Build configuration list for PBXNativeTarget "FlappyBirdOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC40D3B19D9EBDC00ACDA8F /* Debug */,
+				BEC40D3C19D9EBDC00ACDA8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

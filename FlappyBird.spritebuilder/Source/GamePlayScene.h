@@ -30,5 +30,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(void) updateScore;
 -(void) gameOver;
 -(void) addPowerup;
+-(void) touchBegan;
 
 @end

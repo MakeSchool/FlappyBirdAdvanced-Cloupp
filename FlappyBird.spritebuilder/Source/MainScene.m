@@ -70,14 +70,14 @@
 
 #pragma mark - Touch Handling
 
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+- (void)touchBegan {
     if (!_gameOver) {
         [character.physicsBody applyAngularImpulse:10000.f];
         _sinceTouch = 0.f;
         
         @try
         {
-            [super touchBegan:touch withEvent:event];
+            [super touchBegan];
         }
         @catch(NSException* ex)
         {
@@ -85,6 +85,17 @@
         }
     }
 }
+
+#if TARGET_OS_IPHONE
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    [self touchBegan];
+}
+#else
+- (void)mouseDown:(NSEvent *)theEvent
+{
+    [self touchBegan];
+}
+#endif
 
 #pragma mark - Game Actions
 
