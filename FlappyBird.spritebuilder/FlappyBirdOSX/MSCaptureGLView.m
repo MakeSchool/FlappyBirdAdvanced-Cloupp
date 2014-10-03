@@ -1,6 +1,6 @@
 //
 //  MSCaptureGLView.m
-//  FlappyBird
+//  GottaCodeEmAll
 //
 //  Created by Gerald Monaco on 9/29/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
@@ -41,8 +41,15 @@
                 [[CCDirector sharedDirector] resume];
             }
             else if ([obj objectForKey:@"down"] != nil) {
-                [[CCDirector sharedDirector].responderManager mouseDown:[NSEvent mouseEventWithType:NSLeftMouseDown location:CGPointMake(196, 307) modifierFlags:256 timestamp:0 windowNumber:0 context:nil eventNumber:nil clickCount:0 pressure:0]];
-            };
+                NSDictionary *props = (NSDictionary *)[obj objectForKey:@"down"];
+                
+                [[CCDirector sharedDirector].responderManager mouseDown:[NSEvent mouseEventWithType:NSLeftMouseDown location:CGPointMake([[props valueForKey:@"x"] floatValue] * size.width, size.height - [[props valueForKey:@"y"] floatValue] * size.height) modifierFlags:256 timestamp:0 windowNumber:0 context:nil eventNumber:nil clickCount:0 pressure:0]];
+            }
+            else if ([obj objectForKey:@"up"]) {
+                NSDictionary *props = (NSDictionary *)[obj objectForKey:@"up"];
+                
+                [[CCDirector sharedDirector].responderManager mouseUp:[NSEvent mouseEventWithType:NSLeftMouseUp location:CGPointMake([[props valueForKey:@"x"] floatValue] * size.width, size.height - [[props valueForKey:@"y"] floatValue] * size.height) modifierFlags:256 timestamp:0 windowNumber:0 context:nil eventNumber:nil clickCount:0 pressure:0]];
+            }
         });
     };
 }
@@ -62,6 +69,7 @@
     
     dispatch_async(queue, ^{
         @try {
+            //#ifndef DEBUG
             unsigned char* planes[1];
             planes[0] = [buffer mutableBytes];
             
@@ -88,8 +96,10 @@
             imageData = [imageRep representationUsingType:NSJPEGFileType properties:imageProps];
             
             unsigned long size = [imageData length];
+            
             [stdout writeData:[NSData dataWithBytes:&size length:sizeof(size)]];
             [stdout writeData:imageData];
+            //#endif
         }
         @catch (NSException *exception) {
         }
@@ -101,4 +111,3 @@
 }
 
 @end
-

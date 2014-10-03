@@ -8,6 +8,7 @@
 
 #import "CCNode.h"
 #import "Character.h"
+#import "TutorialScene.h"
 
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
@@ -15,7 +16,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderHero
 };
 
-@interface GamePlayScene : CCNode <CCPhysicsCollisionDelegate>
+@interface GamePlayScene : TutorialScene
 {
     // define variables here;
     Character*        character;
@@ -30,6 +31,5 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(void) updateScore;
 -(void) gameOver;
 -(void) addPowerup;
--(void) touchBegan;
 
 @end

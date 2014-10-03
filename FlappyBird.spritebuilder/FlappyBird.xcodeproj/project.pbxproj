@@ -60,6 +60,8 @@
 		BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
 		BEC40D6019D9ECDE00ACDA8F /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		BEC40D6619DA104900ACDA8F /* MSCaptureGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */; };
+		BED8295419DF065E00014654 /* TutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8295319DF065E00014654 /* TutorialScene.m */; };
+		BED8295519DF065E00014654 /* TutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8295319DF065E00014654 /* TutorialScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,8 @@
 		BEC40D5A19D9EC6400ACDA8F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		BEC40D6419DA104900ACDA8F /* MSCaptureGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCaptureGLView.h; sourceTree = "<group>"; };
 		BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCaptureGLView.m; sourceTree = "<group>"; };
+		BED8295219DF065E00014654 /* TutorialScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialScene.h; path = Source/TutorialScene.h; sourceTree = "<group>"; };
+		BED8295319DF065E00014654 /* TutorialScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialScene.m; path = Source/TutorialScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,8 @@
 				BCF66F7B19563563004691FD /* Obstacle.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
+				BED8295219DF065E00014654 /* TutorialScene.h */,
+				BED8295319DF065E00014654 /* TutorialScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -584,6 +590,7 @@
 				BCF66F7D19563563004691FD /* GamePlayScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				BED8295519DF065E00014654 /* TutorialScene.m in Sources */,
 				BCF66F8019563563004691FD /* Obstacle.m in Sources */,
 				BCF66F7C19563563004691FD /* Character.m in Sources */,
 				BCF66F7F19563563004691FD /* MainScene.m in Sources */,
@@ -594,6 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED8295419DF065E00014654 /* TutorialScene.m in Sources */,
 				BEC40D5D19D9ECD900ACDA8F /* GamePlayScene.m in Sources */,
 				BEC40D2719D9EBDC00ACDA8F /* main.m in Sources */,
 				BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */,
