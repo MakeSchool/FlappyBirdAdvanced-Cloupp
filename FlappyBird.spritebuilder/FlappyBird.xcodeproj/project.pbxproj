@@ -40,6 +40,7 @@
 		BCF66F7E19563563004691FD /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7719563563004691FD /* Goal.m */; };
 		BCF66F7F19563563004691FD /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
 		BCF66F8019563563004691FD /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7B19563563004691FD /* Obstacle.m */; };
+		BE04A36619DF11FD003495A2 /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7B19563563004691FD /* Obstacle.m */; };
 		BEC40D2519D9EBDC00ACDA8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D2419D9EBDC00ACDA8F /* AppDelegate.m */; };
 		BEC40D2719D9EBDC00ACDA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D2619D9EBDC00ACDA8F /* main.m */; };
 		BEC40D2919D9EBDC00ACDA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC40D2819D9EBDC00ACDA8F /* Images.xcassets */; };
@@ -603,6 +604,7 @@
 			files = (
 				BED8295419DF065E00014654 /* TutorialScene.m in Sources */,
 				BEC40D5D19D9ECD900ACDA8F /* GamePlayScene.m in Sources */,
+				BE04A36619DF11FD003495A2 /* Obstacle.m in Sources */,
 				BEC40D2719D9EBDC00ACDA8F /* main.m in Sources */,
 				BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */,
 				BEC40D2519D9EBDC00ACDA8F /* AppDelegate.m in Sources */,
