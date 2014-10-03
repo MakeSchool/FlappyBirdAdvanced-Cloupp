@@ -61,6 +61,7 @@
 		BEC40D5E19D9ECD900ACDA8F /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
 		BEC40D6019D9ECDE00ACDA8F /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		BEC40D6619DA104900ACDA8F /* MSCaptureGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC40D6519DA104900ACDA8F /* MSCaptureGLView.m */; };
+		BECDBAFA19DF1C0400BF3ACD /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7719563563004691FD /* Goal.m */; };
 		BED8295419DF065E00014654 /* TutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8295319DF065E00014654 /* TutorialScene.m */; };
 		BED8295519DF065E00014654 /* TutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8295319DF065E00014654 /* TutorialScene.m */; };
 /* End PBXBuildFile section */
@@ -602,6 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECDBAFA19DF1C0400BF3ACD /* Goal.m in Sources */,
 				BED8295419DF065E00014654 /* TutorialScene.m in Sources */,
 				BEC40D5D19D9ECD900ACDA8F /* GamePlayScene.m in Sources */,
 				BE04A36619DF11FD003495A2 /* Obstacle.m in Sources */,
